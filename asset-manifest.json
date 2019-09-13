@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4048b3e8.chunk.css",
-    "main.js": "/static/js/main.b0a21379.chunk.js",
-    "main.js.map": "/static/js/main.b0a21379.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.f87ba519.js",
-    "runtime~main.js.map": "/static/js/runtime~main.f87ba519.js.map",
-    "static/js/2.5cc47c52.chunk.js": "/static/js/2.5cc47c52.chunk.js",
-    "static/js/2.5cc47c52.chunk.js.map": "/static/js/2.5cc47c52.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c7dfb25bd05cc6cf4b5c58df137471bd.js": "/precache-manifest.c7dfb25bd05cc6cf4b5c58df137471bd.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4048b3e8.chunk.css.map": "/static/css/main.4048b3e8.chunk.css.map"
+    "main.css": "/fhir_toolkit/static/css/main.4048b3e8.chunk.css",
+    "main.js": "/fhir_toolkit/static/js/main.dad1cf50.chunk.js",
+    "main.js.map": "/fhir_toolkit/static/js/main.dad1cf50.chunk.js.map",
+    "runtime~main.js": "/fhir_toolkit/static/js/runtime~main.4eede41f.js",
+    "runtime~main.js.map": "/fhir_toolkit/static/js/runtime~main.4eede41f.js.map",
+    "static/js/2.0abe321c.chunk.js": "/fhir_toolkit/static/js/2.0abe321c.chunk.js",
+    "static/js/2.0abe321c.chunk.js.map": "/fhir_toolkit/static/js/2.0abe321c.chunk.js.map",
+    "index.html": "/fhir_toolkit/index.html",
+    "precache-manifest.64856b7ccca4d9e6ac43e323dd129177.js": "/fhir_toolkit/precache-manifest.64856b7ccca4d9e6ac43e323dd129177.js",
+    "service-worker.js": "/fhir_toolkit/service-worker.js",
+    "static/css/main.4048b3e8.chunk.css.map": "/fhir_toolkit/static/css/main.4048b3e8.chunk.css.map"
   }
 }
