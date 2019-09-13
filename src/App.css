@@ -1,33 +1,62 @@
-.App {
-  text-align: center;
+/* The main container element */
+.Collapsible {
+  background-color: #ffffff;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+/* The content within the collaspable area */
+.Collapsible__contentInner {
+  padding: 10px;
+  border: 1px solid lightGrey;
+  border-top: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* The link which when clicked opens the collapsable area */
+.Collapsible__trigger {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: gray;
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+  background: #000080;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+  .Collapsible__trigger::after {
+    font-family: 'math';
+    content: 'V';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  .Collapsible__trigger.is-open::after {
+      transform: rotateZ(180deg);
+  }
+
+  .Collapsible__trigger.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+  }
+
+.CustomTriggerCSS {
+  background-color: lightcoral;
+  transition: background-color 200ms ease;
+  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CustomTriggerCSS--open {
+  background-color: darkslateblue;
+}
+
+.Collapsible__custom-sibling {
+  padding: 5px;
+  font-size: 12px;
+  background-color: #CBB700;
+  color: black;
 }
